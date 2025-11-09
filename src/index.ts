@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "tech-savy sloth",
+      prompt: "Anthropomorphic sloth that looks clever and slightly sarcastic, tech-savvy engineer style, surrounded by code, data graphs, and screens, futuristic workspace, coffee cup nearby, cinematic lighting, hyper-realistic digital painting",
     };
 
     const response = await env.AI.run(
